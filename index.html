@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>我的链接存储</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #0a192f; /* 暗蓝色背景 */
+            color: #c8d0f5; /* 文字颜色为浅蓝色 */
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+        .container {
+            background-color: #16213e; /* 深蓝色容器背景 */
+            border-radius: 8px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+            width: 80%;
+            max-width: 600px;
+            padding: 20px;
+        }
+        h1 {
+            text-align: center;
+            color: #78a4d6; /* 标题颜色为亮蓝色 */
+            margin-bottom: 20px;
+        }
+        .link-list {
+            list-style: none;
+            padding: 0;
+        }
+        .link-list li {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 10px 0;
+            border-bottom: 1px solid #283a62; /* 分割线颜色为深蓝色 */
+        }
+        .link-list li:last-child {
+            border-bottom: none;
+        }
+        .link-list a {
+            color: #78a4d6; /* 链接颜色为亮蓝色 */
+            text-decoration: none;
+            font-weight: bold;
+        }
+        .link-list a:hover {
+            text-decoration: underline;
+        }
+        .link-list span {
+            font-size: 0.9em;
+            color: #8899a6; /* 描述文字颜色为浅灰色 */
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>我的链接收藏夹</h1>
+        <ul class="link-list">
+            <li>
+                <a href="https://www.google.com" target="_blank">Google</a>
+                <span>搜索引擎</span>
+            </li>
+            <li>
+                <a href="https://www.bilibili.com" target="_blank">Bilibili</a>
+                <span>视频网站</span>
+            </li>
+            <li>
+                <a href="https://www.github.com" target="_blank">GitHub</a>
+                <span>代码托管平台</span>
+            </li>
+            <li>
+                <a href="https://www.stackoverflow.com" target="_blank">Stack Overflow</a>
+                <span>编程问答社区</span>
+            </li>
+            <li>
+                <a href="https://www.youtube.com" target="_blank">YouTube</a>
+                <span>视频分享平台</span>
+            </li>
+        </ul>
+    </div>
+</body>
+</html>
